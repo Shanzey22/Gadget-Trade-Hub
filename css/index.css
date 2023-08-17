@@ -243,3 +243,28 @@ text-shadow:-1px 1px 1px black;
     margin-top:5px;
     color:black;
  }
+
+ .star i{
+    margin-left:5px;
+    font-size:13px;
+
+ }
+ .checked{
+    color:#ffc800;
+ }
+ #product-card .card h2{
+    font-size:20px;
+    color:black;
+    margin-top: 20px;
+ }
+ #product-cards .card h2 span{
+    float:right;
+    color:black;
+    cursor:pointer;
+ }
+ @media screen and (max-width:1000px){
+    #product-cards .card h3{
+        font-size:18px;
+    }
+ }
+
