@@ -20,22 +20,25 @@
                 width:40px;
             }
             .btn{
-                width:350px;
+                width:300px;
             }
             
         </style>
     </head>
     <body>
         <div class="container p-5 mt-4 rounded">
-            <h1 class="text-center fs-1 fw-bold">Login</h1>
+            <h1 class="text-center fs-1 fw-bold">Login</h1><br/>
 
-            <lable for="username">Username:</lable><br/>
-            <input type="text" placeholder="Type your username" id="username" required size="47" /><br/>
+            <div class="form-floating mb-3">
+                <input type="text email" class="form-control" id="username/email" placeholder="username/email">
+                <label for="username/email">Username/Email</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Password</label>
+            </div>
+            <a href="./forget_pass.html" target="_blank" class="text-decoration-none d-flex justify-content-end">Forgot password?</a>
             <br/>
-            <lable for="pass">Password:</lable><br/>
-            <input type="password" placeholder="Enter your password" id="pass" required size="47"/><br/>
-            <a href="forgot_password.html"  target="_blank" class="text-decoration-none d-flex justify-content-end">Forgot parrsord?</a><br/><br/>
-
             <div class="d-flex justify-content-center "><button class=" btn btn-primary" type="submit">Login</button></div>
             <br/><br/>
             <p class="text-center">Or Login Using</p>

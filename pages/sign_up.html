@@ -15,50 +15,69 @@
                 rgba(0, 0, 0, 0.09) 0px -3px 5px;
             }
             .btn{
-                width:350px;
+                width:100px;
             }
             .logo{
                 height:40px;
                 width:40px;
+            }
+            .logo:hover{
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
             }
         </style>
     </head>
     <body>
         <div class="container p-5 mt-4 rounded ">
             <div><h1 class="text-center fs-1 fw-bold">Sign Up</h1></div>
+            <br/>
             <div class="d-flex justify-content-evenly">
                 <div>
-                    <lable for="username">Name:</lable><br/>
-                    <input type="text" placeholder="Type your name" id="username" required size="47" /><br/>
-                    <br/>
-                    <lable for="email"> Enter your Email:</lable><br/>
-                    <input type="email" placeholder="Enter your Email" id="email" required/><br/>
-                    <br/>
-                    <lable for="mobile">Mobile:</lable><br/>
-                    <input type="tel" placeholder="Type mobile number" id="mobile" required size="47" /><br/>
-                    <br/>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Your name">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="username" placeholder="name@example.com">
+                        <label for="username">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="mobile" placeholder="mobile no." style="width: 400px">
+                        <label for="mobile">Mobile No.</label>
+                    </div>
                     <lable for="male">Male:</lable>
                     <input type="radio" id="male" name="gender">
                     <lable for="female">Female:</lable>
                     <input type="radio" id="female" name="gender">
                     <br/><br/>
-                    <lable for="pass">Enter Password:</lable><br/>
-                    <input type="password" placeholder="Enter password" id="pass" required/><br/>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <label for="password">Enter Password</label>
+                    </div>
                     <br/>
-                    <lable for="pass">Confirm Password:</lable><br/>
-                    <input type="password" placeholder="Reenter password" id="pass" required/><br/>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <label for="password">Reenter Password</label>
+                    </div>
                 </div>
                 <div >
                     <img src="https://cdn-icons-png.flaticon.com/128/5335/5335072.png" class="d-block mx-auto"/>
-                    <input type="file" accept="application/*, image/*"  class="btn btn-outline-primary d-block mx-auto " required/>
+                    <div class="input-group">
+                        <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                        <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Uplode</button>
+                    </div>
                     <br/>
-                    <lable for="username">Username:</lable><br/>
-                    <input type="text" placeholder="Type your username" id="username" required size="40" /><br/>
-                    <br/><br/>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        <label for="username">Username</label>
+                    </div>
                     <input type="checkbox" id="agree_t&c" required/>
                     <lable for="agree_t&c">Agree Terms & Conditions</lable>
                     <br/><br/>
-                    <div class="d-block mx-auto "><button class=" btn btn-primary" type="submit" >Sign Up</button></div>
+                    <div class="d-flex justify-content-center "><button class=" btn btn-primary" type="submit" >Sign Up</button></div>
                     <br/>
                     <a href="./login.html" target="_blank" class="text-decoration-none d-flex justify-content-center">Aready Signed up?</a>
                     
