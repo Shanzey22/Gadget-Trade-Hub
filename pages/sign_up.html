@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <style>
+            .container{
+                width:1000px;
+                height:auto;
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+                rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+            .btn{
+                width:350px;
+            }
+            .logo{
+                height:40px;
+                width:40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container p-5 mt-4 rounded ">
+            <div><h1 class="text-center fs-1 fw-bold">Sign Up</h1></div>
+            <div class="d-flex justify-content-evenly">
+                <div>
+                    <lable for="username">Name:</lable><br/>
+                    <input type="text" placeholder="Type your name" id="username" required size="47" /><br/>
+                    <br/>
+                    <lable for="email"> Enter your Email:</lable><br/>
+                    <input type="email" placeholder="Enter your Email" id="email" required/><br/>
+                    <br/>
+                    <lable for="mobile">Mobile:</lable><br/>
+                    <input type="tel" placeholder="Type mobile number" id="mobile" required size="47" /><br/>
+                    <br/>
+                    <lable for="male">Male:</lable>
+                    <input type="radio" id="male" name="gender">
+                    <lable for="female">Female:</lable>
+                    <input type="radio" id="female" name="gender">
+                    <br/><br/>
+                    <lable for="pass">Enter Password:</lable><br/>
+                    <input type="password" placeholder="Enter password" id="pass" required/><br/>
+                    <br/>
+                    <lable for="pass">Confirm Password:</lable><br/>
+                    <input type="password" placeholder="Reenter password" id="pass" required/><br/>
+                </div>
+                <div >
+                    <img src="https://cdn-icons-png.flaticon.com/128/5335/5335072.png" class="d-block mx-auto"/>
+                    <input type="file" accept="application/*, image/*"  class="btn btn-outline-primary d-block mx-auto " required/>
+                    <br/>
+                    <lable for="username">Username:</lable><br/>
+                    <input type="text" placeholder="Type your username" id="username" required size="40" /><br/>
+                    <br/><br/>
+                    <input type="checkbox" id="agree_t&c" required/>
+                    <lable for="agree_t&c">Agree Terms & Conditions</lable>
+                    <br/><br/>
+                    <div class="d-block mx-auto "><button class=" btn btn-primary" type="submit" >Sign Up</button></div>
+                    <br/>
+                    <a href="./login.html" target="_blank" class="text-decoration-none d-flex justify-content-center">Aready Signed up?</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="position-fixed top-0 end-0">
+            <a href="https://accounts.google.com/"><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" class="logo my-2 "/></a><br/>
+            <a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/128/3670/3670124.png" class="logo my-2"/></a><br/>
+            <a href="https://twitter.com/i/flow/login?lang=en"><img src="https://logowik.com/content/uploads/images/twitter-x5265.logowik.com.webp" class="logo my-2"/></a>
+        </div>
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
