@@ -196,3 +196,50 @@ text-shadow:-1px 1px 1px black;
     }
     
     }
+
+
+    @media screen and (max-width:550px){
+        .home{
+            height:110vh;
+        
+        }
+        
+        }  
+        @media screen and (max-width:420px){
+            .content h1{
+                font-size: 45px;
+               
+            
+            }
+            
+            }
+            @media screen and (max-width:320px){
+                .content h1{
+                    font-size: 34px;
+                
+                
+                }
+                
+                } 
+   #product-cards{
+    margin-top:100px;
+   }             
+ #product-cards h1{
+    color:black;
+    text-shadow:1px 1px 1px black;
+    border-bottom:2px solid #ffc800;
+ }  
+ #product-cards .card h3{
+    font-size:25px;
+    color:black;
+
+ }  
+ #product-cards .card h1{
+    font-size:25px;
+    color:black;
+ }
+ #product-cards .card p{
+    font-size:12px;
+    margin-top:5px;
+    color:black;
+ }
