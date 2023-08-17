@@ -153,3 +153,46 @@ margin-left:23px;
 font-size:60px;
 text-shadow:-1px 1px 1px black;
 }
+
+
+.content h1 span{
+    color:black;
+}
+#span2{
+    color:#ffc800;
+}
+.content p{
+    margin-left:23px;
+}.btn{
+    margin-left:23px;
+}
+.btn button{
+    width:150px;
+    height:32px;
+    letter-spacing: 3px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s ease;
+    cursor:pointer;
+}
+.btn button:hover{
+    background-color: #ffc800;
+    color:black;
+    border: none;
+}
+@media screen and (max-width:1200px){
+.home{
+    height:50vh;
+
+}
+
+}
+@media screen and (max-width:799px){
+    .home{
+        height:140vh;
+    
+    }
+    
+    }
