@@ -278,3 +278,51 @@ text-shadow:-1px 1px 1px black;
     }
  }
 
+ .container1{
+    background-color: rgb(234, 92, 92);
+    color:white;
+
+    margin-top: 90px;
+    padding-top: 70px;
+    padding-left: 90px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+  
+ }
+ .container1 .left{
+   
+    height: 30px;
+    width: 800px;
+ }
+ .container1 .left h1{
+    font-weight: 800px;
+ }
+.container2{
+    margin-left:800px;
+    height:130px;
+    width:500px;
+    color:#ffc800;
+    background-color:blue;
+    margin-top: -30px;
+   
+}
+.container1 .container2 .card{
+    display: inline-block;
+    background-color: aquamarine;
+    height: 100px;
+    width:140px;
+padding-left:1px;
+padding-top: 1px;
+
+}
+.container1 .container2 .card h1{
+    font-size: 20px;
+}
+.container1 .container2 .card h2{
+    font-size:17px;
+}
+
+
+ 
+
+
