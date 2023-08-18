@@ -50,11 +50,14 @@
         width:13px;
 
     }
+
+
+
+
     .top-navbar p{
         font-size:10px;
     }
 }
-
 @media screen and (max-width:318px){
     .top-navbar a{
         font-size:8px;
@@ -71,29 +74,8 @@
 }
 #navbar{
     background-color:black;
-    overflow:hidden;
-}
-#navbar a{
-    float:left;
-    display:block;
-    
-text-align:center;
-padding:14px;
-text-decoration:none;
-}
-.content{
-    padding:16px;
-}
-.sticky{
-    position:fixed;
-    top:0;
-    width:100%;
-}
-.sticky + .content{
-    padding-top:60px;
-}
 
-
+}
 #logo{
     margin-left:15px;
     color:white;
@@ -120,6 +102,9 @@ text-decoration:none;
     text-shadow:0px 0px 1px black;
     transition:0.5s ease;
 }
+
+
+
 .nav-item .nav-link:hover{
     color:#ffc800;
 }
@@ -219,6 +204,8 @@ text-shadow:-1px 1px 1px black;
     }
 
 
+
+
     @media screen and (max-width:550px){
         .home{
             height:110vh;
@@ -265,6 +252,8 @@ text-shadow:-1px 1px 1px black;
     color:black;
  }
 
+
+ 
  .star i{
     margin-left:5px;
     font-size:13px;
