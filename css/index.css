@@ -279,7 +279,7 @@ text-shadow:-1px 1px 1px black;
  }
 
  .container1{
-    background-color: rgb(234, 92, 92);
+    background-color: black;
     color:white;
 
     margin-top: 90px;
@@ -302,13 +302,13 @@ text-shadow:-1px 1px 1px black;
     height:130px;
     width:500px;
     color:#ffc800;
-    background-color:blue;
+    background-color:black;
     margin-top: -30px;
    
 }
 .container1 .container2 .card{
     display: inline-block;
-    background-color: aquamarine;
+    background-color:black;
     height: 100px;
     width:140px;
 padding-left:1px;
