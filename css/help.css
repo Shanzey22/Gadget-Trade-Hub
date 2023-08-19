@@ -1,0 +1,28 @@
+.div1{
+
+    height: 1300px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px 3px gray;
+}
+.div4{
+    background-color:#ffc800;
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+.img1{
+    height: 190px;
+    width: auto;
+    margin-left: 17px;
+}
+.img3{
+    height: 90px;
+    width: 90px;
+}
+
+.div2{
+    
+}
