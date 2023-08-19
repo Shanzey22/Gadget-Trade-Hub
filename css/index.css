@@ -69,9 +69,13 @@
     }
 }
 #navbar{
-    background-color:black;
-
+    background-color:rgb(11, 134, 249);
+  position: sticky;
+  top:0;
+    font-weight: bold;
+   
 }
+
 #logo{
     margin-left:15px;
     color:white;
