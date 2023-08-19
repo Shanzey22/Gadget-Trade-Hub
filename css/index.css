@@ -406,5 +406,24 @@ html{
 
 
 
+.cover {
+    padding: 0px 30px;
+    position: relative;
+  }
+  .left4 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right4 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+
 
 
