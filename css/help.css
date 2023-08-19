@@ -1,6 +1,6 @@
 .div1{
 
-    height: 1300px;
+    height: 950px;
     width: 450px;
     display: flex;
     flex-direction: column;
@@ -24,5 +24,14 @@
 }
 
 .div2{
-    
+    height: 130px;
+    width: auto;
+    margin: 10px;
+
+}
+.btn{
+    height: 40px;
+    margin-left: 280px;
+    width: 140px;
+    background-color: #ffc800;
 }
