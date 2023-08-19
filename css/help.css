@@ -47,13 +47,13 @@
 .div6{
     height: 950px;
     width: 1000px;
-    background-color: aqua;
+    
     margin-left: 20px;
 }
 .div10{
     height: 300px;
     width: 980px;
-    background-color: azure;
+    
     margin: 5px;
     display: flex;
     flex-direction: row;
