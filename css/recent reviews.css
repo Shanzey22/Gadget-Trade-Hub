@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .rating-container {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .rating-symbol {
+    font-size: 48px;
+    color: #ffbb33;
+    margin-bottom: 10px;
+  }
+  .star {
+    font-size: 20px;
+    color: #ffbb33;
+    margin-bottom: 10px;
+  }
+  
+  .overall-rating {
+    font-size: 24px;
+  }
+  
+  .star-ratings {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .star-column {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+  }
+  
+  .star-count {
+    font-size: 25px;
+    color: gold;
+  }
+  

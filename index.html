@@ -3,9 +3,512 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gadget Trade Hub</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
-</body>
-</html>
+    <div class="top-navbar">
+        <p>WELCOME TO OUR SHOP</p>
+        <div class="icons">
+            <a href="login.html"><img src="img/right-to-bracket-solid(1).svg" alt="" width="18px">Login</a>
+            <a href="register.html"><img src="img/right-to-bracket-solid(1).svg" alt="" width="18px">Register</a>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span id="span1">G</span>adgetTrade<span>Hub</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><img src="img/bars-solid.svg" alt="" width="30px" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black;">
+                  <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                  <li><a class="dropdown-item" href="#">Mobile Phone</a></li>
+
+                  <li><a class="dropdown-item" href="#">Headphone</a></li>
+                  <li><a class="dropdown-item" href="#">Laptop</a></li>
+                  <li><a class="dropdown-item" href="#">PC monitor</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Our Services
+                </a>
+
+
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black;">
+                  <li><a class="dropdown-item" href="#">Sell</a></li>
+                  <li><a class="dropdown-item" href="#">Buy</a></li>
+
+                  <li><a class="dropdown-item" href="#">Repair</a></li>
+                  <li><a class="dropdown-item" href="#">Find new</a></li>
+                  <li><a class="dropdown-item" href="#">Near by stores</a></li>
+                  <li><a class="dropdown-item" href="#">Compare stores</a></li>
+                  <li><a class="dropdown-item" href="#">Recylce</a></li>
+                  <li><a class="dropdown-item" href="#">Reuse</a></li>
+                  <li><a class="dropdown-item" href="#">Refurbhished</a></li>
+                  <li><a class="dropdown-item" href="#">Favourite brands</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black;">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+
+                  <li><a class="dropdown-item" href="#">Career</a></li>
+                
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Help
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black;">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#">Faq</a></li>
+                  <li><a class="dropdown-item" href="#">Terms and Condition</a></li>
+                  <li><a class="dropdown-item" href="#">Private policy</a></li>
+                  <li><a class="dropdown-item" href="#">Cookie Policy</a></li>
+                  <li><a class="dropdown-item" href="#">E-waste Policy</a></li>
+                  
+                  
+                  
+
+                 
+                </ul>
+              </li>
+
+
+
+             
+            </ul>
+
+
+
+
+            <form class="d-flex" id="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<section class="home">
+      <div class="content">
+        <h1><span>Electronic Products</span>
+        <br>
+        Up To <span id="span2">30%-40%</span>Off
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br> Totam neque quibusdam ducimus libero provident sequi
+          <br> suscipit, 
+          odit consequatur, explicabo natus doloremque cum, 
+          <br>similique incidunt delectus aperiam repellat quo fugiat.
+           Fugit.</p>
+           <div class="btn" ><button>Shop now</button></div>
+
+      </div>
+      <div class="img">
+        <img src="img/combination.png" alt="">
+      </div></section>
+
+
+
+
+
+      <div class="container" id="product-cards">
+        <h1 class="text-center">Categories</h1>
+        <div class="row" style="margin-top:30px;">
+          <div class="col-md-3 py-3 py-md-3">
+        <div class="card">
+          <img src="img/1.jpeg" height="300px" width="300px" alt="">
+          <div class="card-body">
+            <h3 class="text-center">Iphone </h3>
+            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div class="star text-center">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+            
+            </div>
+            <h2>Starting at ₹ 500</h2>
+          </div>
+        </div>
+        </div>
+
+
+
+
+        <div class="col-md-3 py-3 py-md-3">
+          <div class="card">
+            <img src="img/2 copy.jpeg" height="300px" width="300px" alt="">
+            <div class="card-body">
+              <h3 class="text-center">Air buds</h3>
+              <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+               </div>
+               <h2>Starting at ₹ 322</h2>
+            </div>
+          </div>
+          </div>  
+
+
+
+          <div class="col-md-3 py-3 py-md-3">
+            <div class="card">
+              <img src="img/3.jpeg" height="300px" width="300px" alt="">
+              <div class="card-body">
+                <h3 class="text-center">Laptop</h3>
+                <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="star text-center">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                 </div>
+                 <h2>Starting at ₹ 15000</h2>
+              </div>
+            </div>
+            </div>  
+
+
+
+            <div class="col-md-3 py-3 py-md-3">
+              <div class="card">
+                <img src="img/4.jpeg" height="300px" width="300px" alt="">
+                <div class="card-body">
+                  <h3 class="text-center">Ipad</h3>
+                  <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <div class="star text-center">
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                    <i class="fa-solid fa-star checked"></i>
+                   </div>
+                   <h2>Starting at ₹ 1000 </h2>
+                </div>
+              </div>
+              </div>  
+
+          
+
+                <div class="col-md-3 py-3 py-md-3">
+                  <div class="card">
+                    <img src="img/5.png" height="300px" width="300px" alt="">
+                    <div class="card-body">
+                      <h3 class="text-center">PC Monitor</h3>
+                      <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <div class="star text-center">
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                        <i class="fa-solid fa-star checked"></i>
+                       </div>
+                       <h2>Starting at ₹ 1000</h2>
+                    </div>
+                  </div>
+                  </div> 
+                  
+                  
+
+
+                  <div class="col-md-3 py-3 py-md-3">
+                    <div class="card">
+                      <img src="img/6.jpeg" height="300px" width="300px" alt="">
+                      <div class="card-body">
+                        <h3 class="text-center">Smart Phones</h3>
+                        <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="star text-center">
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                          <i class="fa-solid fa-star checked"></i>
+                         </div>
+                         <h2>Starting at ₹ 1000 </h2>
+                      </div>
+                    </div>
+                    </div>  
+
+
+                    <div class="col-md-3 py-3 py-md-3">
+                      <div class="card">
+                        <img src="img/7.avif" height="300px" width="300px" alt="">
+                        <div class="card-body">
+                          <h3 class="text-center">HeadPhones</h3>
+                          <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                          <div class="star text-center">
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                            <i class="fa-solid fa-star checked"></i>
+                           </div>
+                           <h2>Starting at ₹ 400</h2>
+                        </div>
+                      </div>
+                      </div>   
+  </div></div>
+ <div class="container" id="product-cards">
+        <h1 class="text-center">Services</h1>
+        <div class="row" style="margin-top:30px;">
+          <div class="col-md-3 py-3 py-md-3">
+        <div class="card">
+          <img src="img/1.2.jpg" height="300px" width="300px" alt="">
+        <h3 class="text-center">SELL</h3>
+     
+        </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-3">
+          <div class="card">
+            <img src="img/2.2.webp" height="300px" width="300px" alt="">
+           <h3 class="text-center">BUY</h3>
+          </div>
+          </div>  
+
+          <div class="col-md-3 py-3 py-md-3">
+            <div class="card">
+              <img src="img/3.1.jpeg" height="300px" width="300px" alt="">
+           <h3  class="text-center">REPAIR</h3>
+            </div>
+            </div>  
+
+            <div class="col-md-3 py-3 py-md-3">
+              <div class="card">
+                <img src="img/4.1.jpg" height="300px" width="300px" alt="">
+               <h3 class="text-center">FIND NEW</h3>
+              </div>
+              </div>  
+
+
+          
+
+                <div class="col-md-3 py-3 py-md-3">
+                  <div class="card">
+                    <img src="img/5.2.avif" height="300px" width="300px" alt="">
+                    <h3 class="text-center">NEARBY STORES</h3>
+                  </div>
+                  </div>  
+
+
+                  <div class="col-md-3 py-3 py-md-3">
+                    <div class="card">
+                      <img src="img/6.1.jpg" height="300px" width="300px" alt="">
+                    <h3 class="text-center">COMPARE</h3></div></div>
+
+               
+               
+                    <div class="col-md-3 py-3 py-md-3">
+                      <div class="card">
+                        <img src="img/7.1.jpeg" height="300px" width="300px" alt="">
+                      <h3 class="text-center">RECYCLE</h3></div></div>
+
+                      <div class="col-md-3 py-3 py-md-3">
+                        <div class="card">
+                          <img src="img/8.png" height="300px" width="300px" alt="">
+                        <h3 class="text-center">REUSE</h3></div></div>   </div>
+                      </div> 
+
+                      <div class="container1">
+                        <div class="left">
+                        <h1  class="comments">
+                          Trusted by 85.16 Lac + Happy Users and <br/>
+                        Major  Brands since 2015</h1></div>
+                        <div class="right">
+                          <div class="container2">
+                    <div class="row" >
+                            <div class="col">
+                          <div class="card">
+                          <img src="img/rupees.png" height="50px" width="50px"  ><br/>
+                          <h1 >6386.85Cr.</h1><h2>Cash Given</h2>
+                    </div></div>
+                    <div class="col"> <div class="card">
+                             <img src="img/mobile.webp" height="50px" width="50px"><br/>
+                             <h1>94.62Lac</h1><h2>Encashed</h2></div>
+                            </div>
+                             <div class="col"> <div class="card">
+                             <img src="img/repair.jpeg" height="50px" width="50px"><br/>
+                             <h1>1.1LacDevices</h1><h2>Repaired</h2></div>
+                              
+                              </div>  
+                      </div></div></div>
+  
+
+
+
+  <div  class="mt-3 ms-3 me-3" class="container" id="product-cards">
+
+    <div class="row">
+      <div class="col-md-3 py-0 py-md-0">
+    <div class="card">
+      <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
+      <p   style="font-size: 15px;" class="ps-3 pe-3">Cashify has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+        get better exchange value for our phones!</p>
+    <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
+        largest smartphone brands.</b></h3>
+     
+     <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
+     <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+ 
+    </div>
+    </div>
+
+    <div class="col-md-3 py-0 py-md-0">
+      <div class="card">
+        <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
+        <p   style="font-size: 15px;" class="ps-3 pe-3">Cashify has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+          get better exchange value for our phones!</p>
+      <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
+          largest smartphone brands.</b></h3>
+       
+       <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
+       <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+   
+      </div>
+      </div>
+
+      <div class="col-md-3 py-0 py-md-0">
+        <div class="card">
+          <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
+          <p   style="font-size: 15px;" class="ps-3 pe-3">Cashify has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+            get better exchange value for our phones!</p>
+        <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
+            largest smartphone brands.</b></h3>
+         
+         <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
+         <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+     
+        </div>
+        </div>
+
+        <div class="col-md-3 py-0 py-md-0">
+          <div class="card">
+            <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
+            <p   style="font-size: 15px;" class="ps-3 pe-3">Cashify has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+              get better exchange value for our phones!</p>
+          <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
+              largest smartphone brands.</b></h3>
+           
+           <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
+           <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+       
+          </div>
+          </div>
+
+          <div class="col-md-3 py-0 py-md-0">
+            <div class="card">
+              <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
+              <p   style="font-size: 15px;" class="ps-3 pe-3">Cashify has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+                get better exchange value for our phones!</p>
+            <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
+                largest smartphone brands.</b></h3>
+             
+             <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
+             <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+         
+            </div>
+            </div>
+  </div>
+  </div></div>
+
+  <div class="container" id="offer">
+    <div class="row">
+      <div class="col-md-3 py-md-0">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <h3>Free Shipping</h3>
+        <p>On order over ₹1000</p>
+      </div>
+      
+          <div class="col-md-3 py-md-0">
+            <i class="fa-solid fa-rotate-left"></i>
+            <h3>Free Returns</h3>
+            <p>Withih 30 days</p>
+          </div>
+        
+              <div class="col-md-3 py-md-0">
+                <i class="fa-solid fa-truck"></i>
+                <h3>Fast Delivery</h3>
+                <p>World wide</p>
+              </div>
+             
+                  <div class="col-md-3 py-md-0">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <h3>Big Choice </h3>
+                    <p>Of products</p>
+                  </div>      
+                 </div>
+  </div>
+
+  <div class="container" id="newslatter">
+    <h1 class="text-center">Subscribe to the Electronic Shop For Latest upload</h1>
+  <div class="input text-center">
+    <input type="text" placeholder="Enter Your Email...">
+    <button id="subscribe">SUBSCRIBE</button>
+  </div>
+  </div><hr>
+
+<div class="container py-4">
+<div class="copyright">
+&copy;Copyright<strong><span>Gadget Trade Hub</span></strong>.All Rights Reserved
+</div>
+<div class="credits">
+Deisigned by <a href="#">cupcake group</a>
+</div>
+</div>
+
+
+<a href="#" class="arrow">
+<span id="boot-icon" class="bi bi-arrow-up-circle-fill" style="font-size: 3rem; color: rgb(243, 156, 18);"></span>   
+</a>
+
+
+                     
+  
+  
+ 
+  
+                        
+                         
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  <script src="js/index.js" ></script>
+  </body>
+  </html>
+
+
+
+                 
+
+                   
