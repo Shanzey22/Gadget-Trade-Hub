@@ -176,7 +176,7 @@ text-shadow:-1px 1px 1px black;
     width:150px;
     height:32px;
     letter-spacing: 3px;
-    background-color: black;
+    background-color: #ffc800;
     color:white;
     border-radius: 5px;
     border: none;
@@ -184,8 +184,8 @@ text-shadow:-1px 1px 1px black;
     cursor:pointer;
 }
 .btn button:hover{
-    background-color: #ffc800;
-    color:black;
+    background-color: black;
+    color:white;
     border: none;
 }
 @media screen and (max-width:1200px){
@@ -279,7 +279,7 @@ text-shadow:-1px 1px 1px black;
  }
 
  .container1{
-    background-color: black;
+    background-color:black;
     color:white;
 
     margin-top: 90px;
@@ -324,7 +324,9 @@ padding-top: 1px;
 
 
 #offer{
-    margin-top:100px;
+    margin-top:75px;
+    margin-right:20px;
+   
 }
 #offer i{
     font-size:32px;
@@ -333,6 +335,7 @@ padding-top: 1px;
 }
 #newslatter{
 margin-top:100px;
+
 }
 #newslatter h3{
     font-size:25px;
