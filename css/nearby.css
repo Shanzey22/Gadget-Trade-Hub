@@ -114,7 +114,7 @@ top:0;
 
 
   .div-1{
-    height:400px;
+    height:450px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -122,8 +122,31 @@ top:0;
     flex-direction: row;
     justify-content: space-evenly;
 }
+@media only screen and(max-width:768px){
+  .div1{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .div2{
+    height: 450px;
+    width:250px ;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .img1{
+    height: 90px;
+    display: block;
+    width: 250px;
+  }
+}
   .div-2{
-    height:350px;
+    height:400px;
     width: 450px;
     background-color:white;
     border-radius: 10px;
@@ -140,11 +163,24 @@ top:0;
   .btn{
   border-radius: 7px;
   margin-left: 330px;
+  margin-bottom: 5px;
   background-color: #ffc800;
   }
 
   .btn:hover{
     border-radius: 2px 2px 3px 3px black;
   }
+  .m-3{
+    margin: 5px;
+  
+    font-size: 20px;
+  }
+  .m-4{
+  
+    font-size: 25px;
+    margin:5px;
+  }
+  
+
 
   
