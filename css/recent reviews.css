@@ -40,6 +40,12 @@
     font-size: 25px;
     color: gold;
   }
+
+  .reviews_heading{
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+  }
   
 
 
