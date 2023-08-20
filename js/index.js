@@ -1,13 +1,12 @@
-window.onscroll =function()
-{myFunction()};
+confirm("GadgetTradeHub.in wants to start sending you push notifications. Click OK to Subscribe.");
 
-var navbar= document.getElementById("navbar");
-var sticky=navbar.offsetTop;
 
-function myFunction(){
-    if (window.pageYOffset>= sticky){
-        navbar.classList.add("sticky")
-    }else{
-        navbar.classList.remove("sticky");
-    }
-}
+
+function left4Scroll() {
+    const left = document.querySelector(".scroll-images");
+    left.scrollBy(200, 0);
+  }
+  function rightScroll() {
+    const right = document.querySelector(".scroll-images");
+    right.scrollBy(-200, 0);
+  }

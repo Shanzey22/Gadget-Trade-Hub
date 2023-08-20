@@ -50,11 +50,7 @@
         width:13px;
 
     }
-
-
-
-
-    .top-navbar p{
+ .top-navbar p{
         font-size:10px;
     }
 }
@@ -73,9 +69,13 @@
     }
 }
 #navbar{
-    background-color:black;
-
+    background-color:rgb(11, 134, 249);
+  position: sticky;
+  top:0;
+    font-weight: bold;
+   
 }
+
 #logo{
     margin-left:15px;
     color:white;
@@ -279,7 +279,7 @@ text-shadow:-1px 1px 1px black;
  }
 
  .container1{
-    background-color: rgb(234, 92, 92);
+    background-color: black;
     color:white;
 
     margin-top: 90px;
@@ -302,13 +302,13 @@ text-shadow:-1px 1px 1px black;
     height:130px;
     width:500px;
     color:#ffc800;
-    background-color:blue;
+    background-color:black;
     margin-top: -30px;
    
 }
 .container1 .container2 .card{
     display: inline-block;
-    background-color: aquamarine;
+    background-color:black;
     height: 100px;
     width:140px;
 padding-left:1px;
@@ -323,6 +323,107 @@ padding-top: 1px;
 }
 
 
- 
+#offer{
+    margin-top:100px;
+}
+#offer i{
+    font-size:32px;
+    color:black;
+
+}
+#newslatter{
+margin-top:100px;
+}
+#newslatter h3{
+    font-size:25px;
+    letter-spacing:3px;
+}
+.input{
+    margin-top:30px;
+}
+.input input{
+    width:350px;
+    height:36px;
+    letter-spacing:2px;
+    border-radius:3px;
+    border:1px solid black;
+    padding-left:5px;
+}
+#subscribe{
+    width:200px;
+    height:36px;
+    margin-left:10px;
+    border-radius:3px;
+    border:none;
+    background-color: #ffc800;
+    color:white;
+    letter-spacing:3px;
+    font-weight:bold;
+    text-shadow:0px 0px 1px black;
+}
+
+@media screen and (max-width:465px){
+    .input .input{
+        width:280px;
+    }
+    #subscribe{
+        margin-top:10px;
+    }
+}
+
+@media screen and (max-width:200px){
+    .input .input{
+        width:150px;
+    }
+    #subscribe{
+      width:150px;
+    }
+} 
+.copyright{
+    text-align:center;
+    float:left;
+}
+.credits{
+    float:right;
+    text-align:center;
+    font-size:13px;
+}
+.credits a{
+    color:#ffc800;
+}
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position:fixed;
+    
+    bottom:40px;
+    right:50px;
+    text-decoration:none;
+    text-align:center;
+    line-height:50px;
+}
+
+
+
+.cover {
+    padding: 0px 30px;
+    position: relative;
+  }
+  .left4 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right4 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+
 
 
