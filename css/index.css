@@ -50,11 +50,7 @@
         width:13px;
 
     }
-
-
-
-
-    .top-navbar p{
+ .top-navbar p{
         font-size:10px;
     }
 }
@@ -73,9 +69,13 @@
     }
 }
 #navbar{
-    background-color:black;
-
+    background-color:rgb(11, 134, 249);
+  position: sticky;
+  top:0;
+    font-weight: bold;
+   
 }
+
 #logo{
     margin-left:15px;
     color:white;
@@ -403,6 +403,26 @@ html{
     text-align:center;
     line-height:50px;
 }
+
+
+
+.cover {
+    padding: 0px 30px;
+    position: relative;
+  }
+  .left4 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .right4 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
 
 
 
