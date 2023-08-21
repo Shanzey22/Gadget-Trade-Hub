@@ -132,3 +132,15 @@
     background-color: #ffc800;
 
 }
+
+
+
+
+
+
+
+
+._content {
+    display: flex;
+    justify-content: space-between;
+}
