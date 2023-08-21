@@ -85,6 +85,43 @@
   font-size: larger;
  }
 
+@media (max-width: 768px) {
+  .rating-symbol {
+    font-size: 36px;
+  }
+
+  .star-ratings {
+    flex-direction: column;
+  }
+
+  .star-column {
+    border-left: none;
+    padding: 10px 0;
+  }
+
+  .review {
+    padding: 10px 0;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .rating-symbol {
+    font-size: 24px;
+  }
+
+  .overall-rating {
+    font-size: 18px;
+  }
+
+  .star-count {
+    font-size: 24px;
+  }
+
+  .review {
+    padding: 10px 0;
+  }
+}
 
 
 
