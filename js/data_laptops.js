@@ -33,11 +33,11 @@ var product=[
     },
     {
         "id":4,
-        "title":"",
-        "brand":"",
-        "price":"",
-        "discription":"",
-        "image":""
+        "title":"Infinix Y1 Plus Neo",
+        "brand":"Infinix",
+        "price":"24,490",
+        "discription":"(15.6) FHD Display, an all-day big battery, a 45 W Type-C port, an Intel Celeron N5100 quad-core processor, 8 GB of RAM, and up to 512 GB of internal storage.",
+        "image":"https://rukminim2.flixcart.com/image/416/416/xif0q/computer/t/d/v/xl30-thin-and-light-laptop-infinix-original-imagzmncdyme776h.jpeg?q=70"
     },
     {
         "id":5,
