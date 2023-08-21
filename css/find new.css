@@ -144,3 +144,8 @@
     display: flex;
     justify-content:space-evenly;
 }
+.heading-name{
+    font-weight: bolder;
+    color: #ffc800;
+    font-size: 35px;
+}
