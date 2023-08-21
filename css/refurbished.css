@@ -139,3 +139,29 @@ top-navbar a img{
 .nav-item .nav-link:hover{
     color:#ffc800;
 }
+.dropdown-menu li a{
+    color:white;
+    transition:0.5s ease;
+    background-color: black;
+
+}
+.dropdown-menu li a:hover{
+    background-color:black;
+    color:#ffc800;
+}
+#search input{
+    border-radius:50px;
+    border:none;
+
+}
+#search button{
+    border-radius:50px;
+    color:white;
+    border:1px solid #ffc800;
+    background-color: #ffc800;
+
+}
+
+.sv{ 
+    color:#ffc800;  
+}
