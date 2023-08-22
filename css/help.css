@@ -9,13 +9,8 @@ body{
     width: 450px;
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
+
     box-shadow: 2px 2px 3px 3px gray;
-}
-@media only screen and (max-width:700px){
-    .div1{
-        background-color: black;
-    }
 }
 .div4{
     background-color:#ffc800;
@@ -23,12 +18,9 @@ body{
     width: auto;
     display: flex;
     flex-direction: row;
-}
-@media only screen and (max-width:768px) {
-    body{
+
+
     
-        background-color: aqua;
-    }
     
 }
 .img1{
@@ -61,7 +53,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: blueviolet;
+    
 }
 
 .div6{
