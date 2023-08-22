@@ -128,7 +128,7 @@ top:0;
 
 }
 #search button{
-  border-radius:50px;
+  border-radius:60px;
   color:white;
   border:1px solid #ffc800;
   background-color: #ffc800;
@@ -214,4 +214,24 @@ body {
   
 
 
+.app-title{
+  text-align: center;
   
+}
+.body-light{
+  color: black;
+  background-color: aliceblue;
+}
+.body-dark{
+  color: white;
+  background-color: gray;
+}
+.btn{
+  height: 35px;
+  width: 60px;
+  border-radius: 5px;
+}
+.div1{
+  display: flex;
+  justify-content:left;
+}
