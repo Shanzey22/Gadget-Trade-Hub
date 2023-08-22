@@ -260,3 +260,25 @@
 
 }
   
+
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.dark-mode {
+  background-color: black;
+  color: rgb(0, 0, 0);
+}
+
+
+    .dark-mode-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor: pointer;
+      z-index: 1000;
+    }
