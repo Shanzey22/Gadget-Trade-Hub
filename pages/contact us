@@ -149,7 +149,7 @@
       margin-left:0px;
       margin-right:1px;
       padding-top: 10px;
-      padding-bottom: 10px;
+      padding-bottom: 9px;
     }
    
     .box img{
@@ -193,7 +193,7 @@
                 <p class="text1">Road to Code , Hadapsar MIDC , Pune ,Maharashtra Pin Code=411013</p>
             </div>
                 <div class="flex">
-                    <p class="ex1">E-mail</p>
+                    <p class="ex1">E-mail- ID</p>
 
                         <img class="img1" src="C:\Users\vedpr\Desktop\Coffee-Snack-Starving\img\gmail.png" />
                         <ul class="text1">
@@ -216,14 +216,14 @@
                     
                 </div>
                 <div class="flex" class="ex4">
-                    <p class="ex1">Follow Us</p>
+                    <p class="ex1">Follow_Us</p>
            <img class="img1" src="C:\Users\vedpr\Desktop\Coffee-Snack-Starving\img\instagram.png" />
                     <p class="text1">Gadget Hub</p>
                    
                  
                 </div>
                 <div class="flex" class="ex4">
-                    <p class="ex1">Working Hour</p>
+                    <p class="ex1">Working HourS</p>
 
                     <img class="img1" src="https://tse3.mm.bing.net/th?id=OIP.0YSdU9BgHioqtF0Y2BfKTAHaJl&pid=Api&P=0&h=180" />
 
