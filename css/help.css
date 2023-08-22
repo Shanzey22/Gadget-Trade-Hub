@@ -48,11 +48,12 @@ body{
 }
 .big-division{
     margin: 10px;
-    height: 1300px;
+    height: 1000px;
     width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 10px;
     
 }
 
@@ -211,3 +212,54 @@ body{
     background-color: #ffc800;
 
 }
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+  }
+
+  .footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 40px 0;
+  }
+
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .footer-links {
+    margin-top: 15px;
+  }
+
+  .footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+
+  .footer-links a:hover {
+    color: #fff;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+
+  .footer-social i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #aaa;
+    transition: color 0.3s;
+  }
+
+  .footer-social i:hover {
+    color: #fff;
+  }
+  .hyperlink li a{
+    text-decoration: none;
+    color: white;
+  }
