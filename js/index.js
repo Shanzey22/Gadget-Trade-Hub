@@ -1,13 +1,15 @@
-window.onscroll =function()
-{myFunction()};
+confirm("GadgetTradeHub.in wants to start sending you push notifications. Click OK to Subscribe.");
 
-var navbar= document.getElementById("navbar");
-var sticky=navbar.offsetTop;
+var color=["#111111","white"];
+var i=0;
+document.querySelector("button").addEventListener("click",function(){  
 
-function myFunction(){
-    if (window.pageYOffset>= sticky){
-        navbar.classList.add("sticky")
-    }else{
-        navbar.classList.remove("sticky");
-    }
-}
+i=i < color.length ? ++i : 0;
+document.querySelector(".top-navbar").style.background = color[i];
+document.querySelector("#navbar").style.background = color[i];
+document.querySelector("button").style.background = color[i];
+document.querySelector(".facebook").style.background = color[i];
+document.querySelector(".twitter").style.background = color[i];
+document.querySelector(".linkedIn").style.background = color[i];
+
+})
