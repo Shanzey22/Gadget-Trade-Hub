@@ -175,17 +175,19 @@
    padding:50px;
 }
 .div2 .left{
-    background-color: rgb(16, 218, 164);
+    background-color:white;
     margin-right: 600px;
+    border:4px solid white;
 }
 .box{
     height:156px;
     width:520px;
    display:grid;
    grid-template-columns: auto auto auto;
-   padding-right: 10px;
+   padding-right: 10px;padding-left: 20px;
    gap:20px;
-    border:5px solid crimson; 
+    border:1px transparent #a9a9a92b;
+     
 
     
 }
@@ -193,12 +195,13 @@
     height:155px;
     width:135px;
     padding:50px 10px;
-    border:5px solid crimson;
+    border:2px solid black;
+   color:black;
  text-align: center;
-
+    background-color: white;
     font-size:25px;
     border-radius: 20px;
- 
+
 }
  
  
