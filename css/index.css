@@ -316,7 +316,7 @@ text-shadow:-1px 1px 1px black;
  .container1 .left{
    color: white;
     height: 30px;
-    width: auto;
+    width: 900px;
  }
  .container1 .left h1{
     font-weight: 800px;
@@ -408,7 +408,7 @@ text-shadow:-1px 1px 1px black;
     height:auto;
     width:auto;
     color:#ffc800;
-    background-color:rgb(192, 21, 21);
+    background-color:black;
     margin-top: -50px;
     
     
@@ -417,7 +417,7 @@ text-shadow:-1px 1px 1px black;
 }
 .container1 .container2 .card{
   display: inline-block;
-    background-color:rgb(33, 137, 33);
+    background-color:black;
     height: 130px;
     width:130px;
 
@@ -444,7 +444,7 @@ margin:0;
     margin-top:-20px;
 
      
-        background-color:rgb(227, 14, 14);
+        background-color:black;
     
     }
     .container1 .container2 .card {
@@ -512,7 +512,7 @@ margin:0;
 
 #offer{
     margin-top:75px;
-    margin-right:20px;
+    margin-right:auto;
    
 }
 #offer i{
@@ -595,23 +595,52 @@ html{
 }
 
 
-
-.cover {
-    padding: 0px 30px;
-    position: relative;
-  }
-  .left4 {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .right4 {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+body {
+    
+    font-family: Arial, sans-serif;
   }
 
+  .footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 40px 0;
+  }
 
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
 
+  .footer-links {
+    margin-top: 15px;
+  }
+
+  .footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
+
+  .footer-links a:hover {
+    color: #fff;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+
+  .footer-social i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #aaa;
+    transition: color 0.3s;
+  }
+
+  .footer-social i:hover {
+    color: #fff;
+  }
+  .hyperlink li a{
+    text-decoration: none;
+    color:white;
+  }
