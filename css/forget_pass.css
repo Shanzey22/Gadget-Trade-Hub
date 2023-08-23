@@ -216,3 +216,10 @@
 .btn1{
     width:200px;
 }
+.body-light{
+    color:black;
+  }
+  .body-dark{
+    background-color: #a6a6a6;
+    
+  }

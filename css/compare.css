@@ -212,3 +212,10 @@ td>img{
 .text:hover{
     color:#ffc800;
 }
+.body-light{
+    color:black;
+  }
+  .body-dark{
+    background-color: #a6a6a6;
+    
+  }

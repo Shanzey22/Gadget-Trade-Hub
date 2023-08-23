@@ -220,3 +220,10 @@
 .btn1{
     width:300px;
 }
+.body-light{
+    color:black;
+  }
+  .body-dark{
+    background-color: #a6a6a6;
+    
+  }
