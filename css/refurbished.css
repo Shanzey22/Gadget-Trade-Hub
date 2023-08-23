@@ -165,3 +165,14 @@ top-navbar a img{
 .sv{ 
     color:#ffc800;  
 }
+.main-text{
+    display:inline;
+    position:relative;
+    top: 25px;
+    text-align: center;
+    background-color:#ffc800; 
+}
+.footer{
+    position: relative;
+    top:50px;
+}
