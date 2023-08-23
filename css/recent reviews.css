@@ -292,13 +292,18 @@ body.dark-mode {
 
     #displayText{
       font-size: 14px;
-    
       color: #333;
     }
 
     #displayName{
       font-weight: bold;
     
+    
+    }
+
+    ._box{
+      border-radius: 5px;
+      border-color: #000000;
     }
 
     
