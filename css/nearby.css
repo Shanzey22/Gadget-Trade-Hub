@@ -128,10 +128,12 @@ top:0;
 
 }
 #search button{
-  border-radius:60px;
+  border-radius:50px;
+  text-align: center;
   color:white;
   border:1px solid #ffc800;
   background-color: #ffc800;
+  font-size: 12px;
 
 }
 
