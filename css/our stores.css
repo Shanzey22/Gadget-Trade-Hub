@@ -4,6 +4,14 @@
 .btn{
     width:100%;
 }
+.body-light{
+    color: black;
+    background-color: white;
+}
+.body-dark{
+    color:white;
+    background-color: #a6a6a6;
+}
 .btn button{
     width: 100%;
     border-radius: 5px;
@@ -12,7 +20,11 @@
     margin-top: 6px;
     cursor: pointer;
     background-color: #ffc800;
+    color: white;
     padding: 2px;
+}
+.btn button:hover{
+    background-color: #000;
 }
 .btn i img{
     margin-bottom: 3px;

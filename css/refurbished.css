@@ -12,6 +12,10 @@
     margin-top: 6px;
     cursor: pointer;
     background-color: #ffc800;
+    color: white;
+}
+.btn button:hover{
+    background-color: #000;
 }
 .btn i img{
     margin-bottom: 3px;
@@ -175,4 +179,17 @@ top-navbar a img{
 .footer{
     position: relative;
     top:50px;
+}
+.star i{
+    margin-left:5px;
+    color: #ffc800;
+
+ }
+ .body-light{
+    color: black;
+    background-color: white;
+}
+.body-dark{
+    color:white;
+    background-color: #a6a6a6;
 }
