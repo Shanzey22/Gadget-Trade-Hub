@@ -1,6 +1,14 @@
 
 # Gadget-Trade-Hub
 
+# Images 
+HOME PAGE
+![Screenshot 2023-08-23 130113](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/57cdbc75-3a7c-4ff4-8174-5bf292d433b3)
+
+SERVICE PAGE
+![Screenshot 2023-08-23 130123](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/d16cb2d3-66a6-48f9-a397-38eeb38aa9dd)
+![Screenshot 2023-08-23 130141](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/de332feb-57a3-4a21-a4d6-fcdcd3c6702a)
+
 # The Importance of Electronic Gadgets in Our Daily Life
 
 In today’s world, electronic gadgets have become an integral part of our daily lives. From smartphones to laptops, smartwatches to home assistants, these gadgets have transformed the way we communicate, work, and live. In this article, we will discuss the importance of electronic gadgets in our daily life, with a special focus on smartwatches.
