@@ -85,11 +85,43 @@
   font-size: larger;
  }
 
+@media (max-width: 768px) {
+  .rating-symbol {
+    font-size: 36px;
+  }
+
+  .star-ratings {
+    flex-direction: column;
+  }
+
+  .star-column {
+    border-left: none;
+    padding: 10px 0;
+  }
+
+  .review {
+    padding: 10px 0;
+  }
+}
 
 
+@media (max-width: 480px) {
+  .rating-symbol {
+    font-size: 24px;
+  }
 
+  .overall-rating {
+    font-size: 18px;
+  }
 
+  .star-count {
+    font-size: 24px;
+  }
 
+  .review {
+    padding: 10px 0;
+  }
+}
 
 
 
@@ -100,7 +132,7 @@
     outline:none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.top-navbar{
+.top-navbar {
     display:flex;
     justify-content :space-between;
 
@@ -228,3 +260,50 @@
 
 }
   
+
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+body.dark-mode {
+  background-color: black;
+  color: rgb(0, 0, 0);
+}
+
+
+    .dark-mode-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    .input_box{
+      text-align: center;
+      font-size: larger;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+    }
+
+    #displayText{
+      font-size: 14px;
+      color: #333;
+    }
+
+    #displayName{
+      font-weight: bold;
+    
+    
+    }
+
+    ._box{
+      border-radius: 5px;
+      border-color: #000000;
+    }
+
+    

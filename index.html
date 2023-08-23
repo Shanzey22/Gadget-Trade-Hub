@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merienda&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
 
 </head>
 <body>
@@ -24,7 +26,12 @@
         <div class="icons">
             <a href="./pages/login.html"><img src="img/right-to-bracket-solid(1).svg" alt="" width="18px">Login</a>
             <a href="./pages/sign_up.html"><img src="img/right-to-bracket-solid(1).svg" alt="" width="18px">Register</a>
-        </div>
+
+            <button class="button5" onclick="black()" id="icon">   
+            <img src="./img/sun.jpg" height="40px" width="40px">
+
+</button>
+          </div>
     </div>
 <nav class="navbar sticky-top navbar-expand-lg " id="navbar" >
         <div class="container-fluid">
@@ -60,7 +67,7 @@
  <li><a class="dropdown-item" href="./pages/repair.html">Repair</a></li>
                   <li><a class="dropdown-item" href="./pages/find new.html">Find new</a></li>
                   <li><a class="dropdown-item" href="./pages/nearby stores.html">Near by stores</a></li>
-                  <li><a class="dropdown-item" href="./pages/compare.html">Compare stores</a></li>
+                  <li><a class="dropdown-item" href="./pages/compare_mobiles.html">Compare devices</a></li>
                   <li><a class="dropdown-item" href="./pages/recycle.html">Recylce</a></li>
                   <li><a class="dropdown-item" href="./pages/reuse.html">Reuse</a></li>
                   <li><a class="dropdown-item" href="./pages/refurbished.html">Refurbhished</a></li>
@@ -72,21 +79,22 @@
                   About
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black;">
-                  <li><a class="dropdown-item" href="#">About us</a></li>
-                  <li><a class="dropdown-item" href="#">Contact us</a></li>
-<li><a class="dropdown-item" href="#">Career</a></li>
+                  <li><a class="dropdown-item" href="./pages/our stores.html">Our store</a></li>
+                  <li><a class="dropdown-item" href="./pages/about.html">About US</a></li>
+                  <li><a class="dropdown-item" href="./pages/contact us.html">Contact us</a></li>
+<li><a class="dropdown-item" href="./pages/our team members.html">Team members</a></li>
               </ul>
               </li> <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Help
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:black;">
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#">Faq</a></li>
-                  <li><a class="dropdown-item" href="#">Terms and Condition</a></li>
-                  <li><a class="dropdown-item" href="#">Private policy</a></li>
-                  <li><a class="dropdown-item" href="#">Cookie Policy</a></li>
-                  <li><a class="dropdown-item" href="#">E-waste Policy</a></li>
+                 
+                  <li><a class="dropdown-item" href="./pages/help.html">Faq</a></li>
+                  <li><a class="dropdown-item" href="./pages/help.html">Terms and Condition</a></li>
+                  <li><a class="dropdown-item" href="./pages/help.html">Private policy</a></li>
+                  <li><a class="dropdown-item" href="./pages/help.html">Cookie Policy</a></li>
+                  <li><a class="dropdown-item" href="./pages/help.html">E-waste Policy</a></li>
                   </ul>
               </li> </ul>
  <form class="d-flex" id="search">
@@ -102,13 +110,13 @@
         <br>
         Up To <span id="span2">30%-40%</span>Off
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          <br> Totam neque quibusdam ducimus libero provident sequi
-          <br> suscipit, 
-          odit consequatur, explicabo natus doloremque cum, 
-          <br>similique incidunt delectus aperiam repellat quo fugiat.
-           Fugit.</p>
-           <a href=#><div class="btn" ><button>Shop now</button></div></a>
+        <p>UP TO 12 MONTHS | EXCHANGE OFFERS 
+        <br>NO COST EMI  | SCHEDULED DELIVERY
+          <br>  
+         COMBO OFFERS | BIG DISCOUNT
+          <br></p>
+           <a href="pages/buy.html"><div class="btn" ><button>Shop now</button></div></a>
+           <a href="pages/Trendingarticles.html"><div class="btn" ><button>Trend gadgets</button></div></a>
 
       </div>
       <div class="img">
@@ -122,9 +130,9 @@
       <div class="container" id="product-cards">
         <h1 class="text-center">Categories</h1>
         <div class="row" style="margin-top:30px;">
-          <div class="col-md-3 py-3 py-md-3">
+          <div class="col-md-3 py-3 py-md-3 px-1">
         <div class="card">
-          <img src="img/1.jpeg" height="300px" width="300px" alt="">
+          <img src="img/1.jpeg" class="mx-auto "  height="300px" width="300px" alt="">
           <div class="card-body">
             <h3 class="text-center">Iphone </h3>
             <p class="text-center">High Quality photos,High Resolution sensor</p>
@@ -136,7 +144,7 @@
               <i class="fa-solid fa-star checked"></i>
             
             </div>
-            <h2>Starting at ₹12,000</h2>
+            <h2 class="text-center">Starting at ₹12,000</h2>
           </div>
         </div>
         </div>
@@ -144,9 +152,9 @@
 
 
 
-        <div class="col-md-3 py-3 py-md-3">
+        <div class="col-md-3 py-3 py-md-3 px-1">
           <div class="card">
-            <img src="img/2 copy.jpeg" height="300px" width="300px" alt="">
+            <img src="img/2 copy.jpeg" class="mx-auto" height="300px" width="300px" alt="">
             <div class="card-body">
               <h3 class="text-center">Air buds</h3>
               <p class="text-center">Long Battery life,Noise cancellation</p>
@@ -157,16 +165,16 @@
                 <i class="fa-solid fa-star checked"></i>
                 <i class="fa-solid fa-star checked"></i>
                </div>
-               <h2>Starting at ₹ 400</h2>
+               <h2 class="text-center">Starting at ₹ 400</h2>
             </div>
           </div>
           </div>  
 
 
 
-          <div class="col-md-3 py-3 py-md-3">
+          <div class="col-md-3 py-3 py-md-3 px-1">
             <div class="card">
-              <img src="img/3.jpeg" height="300px" width="300px" alt="">
+              <img src="img/3.jpeg"  class="mx-auto"  height="300px" width="300px" alt="">
               <div class="card-body">
                 <h3 class="text-center">Laptop</h3>
                 <p class="text-center">15.6 inch screensize,4GB RAM,8 hours of battery</p>
@@ -177,16 +185,16 @@
                   <i class="fa-solid fa-star checked"></i>
                   <i class="fa-solid fa-star checked"></i>
                  </div>
-                 <h2>Starting at ₹20,000</h2>
+                 <h2 class="text-center">Starting at ₹20,000</h2>
               </div>
             </div>
             </div>  
 
 
 
-            <div class="col-md-3 py-3 py-md-3">
+            <div class="col-md-3 py-3 py-md-3 px-1">
               <div class="card">
-                <img src="img/4.jpeg" height="300px" width="300px" alt="">
+                <img src="img/4.jpeg" class="mx-auto" height="300px" width="300px" alt="">
                 <div class="card-body">
                   <h3 class="text-center">Ipad</h3>
                   <p class="text-center">Thin,Lightweight</p>
@@ -197,16 +205,16 @@
                     <i class="fa-solid fa-star checked"></i>
                     <i class="fa-solid fa-star checked"></i>
                    </div>
-                   <h2>Starting at ₹ 6,000 </h2>
+                   <h2 class="text-center">Starting at ₹ 6,000 </h2>
                 </div>
               </div>
               </div>  
 
           
 
-                <div class="col-md-3 py-3 py-md-3">
+                <div class="col-md-3 py-3 py-md-3 px-1">
                   <div class="card">
-                    <img src="img/5.png" height="300px" width="300px" alt="">
+                    <img src="img/5.png" class="mx-auto" height="300px" width="300px" alt="">
                     <div class="card-body">
                       <h3 class="text-center">PC Monitor</h3>
                       <p class="text-center">High Refresh rates.</p>
@@ -217,7 +225,7 @@
                         <i class="fa-solid fa-star checked"></i>
                         <i class="fa-solid fa-star checked"></i>
                        </div>
-                       <h2>Starting at ₹12,000</h2>
+                       <h2 class="text-center">Starting at ₹12,000</h2>
                     </div>
                   </div>
                   </div> 
@@ -225,9 +233,9 @@
                   
 
 
-                  <div class="col-md-3 py-3 py-md-3">
+                  <div class="col-md-3 py-3 py-md-3 px-1">
                     <div class="card">
-                      <img src="img/6.jpeg" height="300px" width="300px" alt="">
+                      <img src="img/6.jpeg"  class="mx-auto" height="300px" width="300px" alt="">
                       <div class="card-body">
                         <h3 class="text-center">Smart Phones</h3>
                         <p class="text-center">Phone calls,Cheaper price</p>
@@ -238,15 +246,15 @@
                           <i class="fa-solid fa-star checked"></i>
                           <i class="fa-solid fa-star checked"></i>
                          </div>
-                         <h2>Starting at ₹ 2,000 </h2>
+                         <h2 class="text-center">Starting at ₹ 2,000 </h2>
                       </div>
                     </div>
                     </div>  
 
 
-                    <div class="col-md-3 py-3 py-md-3">
+                    <div class="col-md-3 py-3 py-md-3 px-1">
                       <div class="card">
-                        <img src="img/7.avif" height="300px" width="300px" alt="">
+                        <img src="img/7.avif" class="mx-auto" height="300px" width="300px" alt="">
                         <div class="card-body">
                           <h3 class="text-center">HeadPhones</h3>
                           <p class="text-center">Volume Limited,Noise cancellation</p>
@@ -257,7 +265,7 @@
                             <i class="fa-solid fa-star checked"></i>
                             <i class="fa-solid fa-star checked"></i>
                            </div>
-                           <h2>Starting at ₹ 150</h2>
+                           <h2 class="text-center">Starting at ₹ 150</h2>
                         </div>
                       </div>
                       </div>   
@@ -265,98 +273,100 @@
  <div class="container" id="product-cards">
         <h1 class="text-center">Services</h1>
         <div class="row" style="margin-top:30px;">
-          <div class="col-md-3 py-3 py-md-3">
+          <div class="col-md-3 py-3 py-md-3 px-1">
         <div class="card">
-          <img src="img/1.2.jpg" height="300px" width="300px" alt="">
-        <a href="#" ><h3 class="text-center">SELL</h3></a>
-     
+          <img src="img/1.2.jpg" class="mx-auto"
+          height="300px" width="300px" alt="">
+        <a href="./pages/sell.html" class="text-decoration-none"><h3 class="text-center">SELL</h3></a>
         </div>
         </div>
 
-        <div class="col-md-3 py-3 py-md-3">
+        <div class="col-md-3 py-3 py-md-3 px-1">
           <div class="card">
-            <img src="img/2.2.webp" height="300px" width="300px" alt="">
-            <a href="#" > <h3 class="text-center">BUY</h3></a>
+            <img src="img/2.2.webp" class="mx-auto" height="300px" width="300px" alt="">
+            <a href="./pages/buy.html" class="text-decoration-none"> <h3 class="text-center">BUY</h3></a>
           </div>
           </div>  
 
-          <div class="col-md-3 py-3 py-md-3">
+          <div class="col-md-3 py-3 py-md-3 px-1">
             <div class="card">
-              <img src="img/3.1.jpeg" height="300px" width="300px" alt="">
-              <a href="#" > <h3  class="text-center">REPAIR</h3></a>
+              <img src="img/3.1.jpeg" class="mx-auto" height="300px" width="300px" alt="">
+              <a href="./pages/repair.html" class="text-decoration-none"> <h3  class="text-center">REPAIR</h3></a>
             </div>
             </div>  
 
-            <div class="col-md-3 py-3 py-md-3">
+            <div class="col-md-3 py-3 py-md-3 px-1">
               <div class="card">
-                <img src="img/4.1.jpg" height="300px" width="300px" alt="">
-                <a href="#" > <h3 class="text-center">FIND NEW</h3></a>
+                <img src="img/4.1.jpg" class="mx-auto" height="300px" width="300px" alt="">
+                <a href="./pages/find new.html" class="text-decoration-none"> <h3 class="text-center">FIND NEW</h3></a>
               </div>
               </div>  
 
 
           
 
-                <div class="col-md-3 py-3 py-md-3">
+                <div class="col-md-3 py-3 py-md-3 px-1 ">
                   <div class="card">
-                    <img src="img/5.2.avif" height="300px" width="300px" alt="">
-                    <a href="#" > <h3 class="text-center">NEARBY STORES</h3></a>
+                    <img src="img/5.2.avif" class="mx-auto" height="300px" width="300px" alt="">
+                    <a href="./pages/nearby stores.html" class="text-decoration-none"> <h3 class="text-center">NEARBY STORES</h3></a>
                   </div>
                   </div>  
 
 
-                  <div class="col-md-3 py-3 py-md-3">
+                  <div class="col-md-3 py-3 py-md-3 px-1">
                     <div class="card">
-                      <img src="img/6.1.jpg" height="300px" width="300px" alt="">
-                      <a href="#"><h3 class="text-center">COMPARE</h3></a></div></div>
+                      <img src="img/6.1.jpg" class="mx-auto" height="300px" width="300px" alt="">
+                      <a href="./pages/compare_mobiles.html"  class="text-decoration-none"><h3 class="text-center">COMPARE</h3></a></div></div>
 
                
                
-                    <div class="col-md-3 py-3 py-md-3">
+                    <div class="col-md-3 py-3 py-md-3 px-1">
                       <div class="card">
-                        <img src="img/7.1.jpeg" height="300px" width="300px" alt="">
-                        <a href="#"><h3 class="text-center">RECYCLE</h3></a></div></div>
+                        <img src="img/7.1.jpeg" class="mx-auto" height="300px" width="300px" alt="">
+                        <a href="./pages/recycle.html" class="text-decoration-none"><h3 class="text-center">RECYCLE</h3></a></div></div>
 
-                      <div class="col-md-3 py-3 py-md-3">
+                      <div class="col-md-3 py-3 py-md-3 px-1">
                         <div class="card">
-                          <img src="img/8.png" height="300px" width="300px" alt="">
-                          <a href="#" ><h3 class="text-center">REUSE</h3></a></div></div>   </div>
+                          <img src="img/8.png" class="mx-auto" height="300px" width="300px" alt="">
+                          <a href="./pages/reuse.html" class="text-decoration-none" ><h3 class="text-center">REUSE</h3></a></div></div>   </div>
                       </div> 
 
-                      <div class="container1">
-                        <div class="left">
-                        <h1  class="comments">
-                          Trusted by 85.16 Lac + Happy Users and <br/>
+                      <div class="container1"  >
+                        <div class="left" >
+                        <h1   class="comments">
+                          Trusted by 85.16 Lac + Happy Users and 
                         Major  Brands since 2015</h1></div>
-                        <div class="right">
+                        <div class="right" style="float:right" >
                           <div class="container2">
-                    <div class="row" >
-                            <div class="col">
+                           
+  
+                            <div class="d-flex flex-row" >
+                            <div class="mx-auto">
                           <div class="card">
-                          <img src="img/rupees.png" height="50px" width="50px"  ><br/>
+                          <img src="img/rupees.png" height="50px" width="40px"  ><br/>
                           <h1 >6386.85Cr.</h1><h2>Cash Given</h2>
                     </div></div>
-                    <div class="col"> <div class="card">
-                             <img src="img/mobile.webp" height="50px" width="50px"><br/>
+                    <div class="mx-auto"> <div class="card">
+                             <img src="img/mobile.webp" height="50px" width="40px" ><br/>
                              <h1>94.62Lac</h1><h2>Encashed</h2></div>
                             </div>
-                             <div class="col"> <div class="card">
-                             <img src="img/repair.jpeg" height="50px" width="50px" ><br/>
+                             <div class="mx-auto"> <div class="card">
+                             <img src="img/repair.jpeg" height="50px" width="40px" ><br/>
                              <h1>1.1LacDevices</h1><h2>Repaired</h2></div>
                               
                               </div>  
                       </div></div></div>
   
 
+<br/><br/><br/><br/><br/>
 
-
-  <div  class="mt-3 ms-3 me-3 px-3 py-3" style="background-color:#ffc800;" id="product-cards" class="container">
+  <div  class="mt-5 ms-3 me-3 px-3 py-3" style="background-color:#ffc800;" id="product-cards" class="container">
   
     <div class="row" >
-      <div class="col-md-3 py-0  py-md-0" >
+      <div class="col-md-3 py-3  py-md-0" >
     <div class="card">
       <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
-      <p   style="font-size: 15px;" class="ps-3 pe-3">GadgetTradehub has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+      <p   style="font-size: 15px;" class="ps-3 pe-3 pb-3">GadgetTradehub has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
         get better exchange value for our phones!</p>
     <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
         largest smartphone brands.</b></h3>
@@ -367,38 +377,34 @@
     </div>
     </div>
 
-    <div  class="col-md-3 py-0  py-md-0">
+    <div  class="col-md-3 py-3  py-md-0">
       <div class="card">
         <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
-        <p   style="font-size: 15px;" class="ps-3 pe-3">GadgetTradehub has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
-          get better exchange value for our phones!</p>
-      <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
-          largest smartphone brands.</b></h3>
+        <p   style="font-size: 15px;" class="ps-3 pe-3 pb-3">Upgraded to the OnePlus 7 Pro: Awesome Device. Sold my old OnePlus 6 on GadgetTradeHub: Even More Awesome Experience</p>
+      <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Vishal is a Tedster, Gizmo & gadget freak & an eminent TV personality. He co-founded GOQii which is a smart-tech enabled, integrated preventive healthcare platform.</b></h3>
        
-       <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
-       <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+       <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Vishal Gondal </b></h3>
+       <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">CEO, GOQii</h3>
    
       </div>
       </div>
 
-      <div class="col-md-3 py-0 py-md-0">
+      <div class="col-md-3 py-3 py-md-0">
         <div class="card">
           <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
-          <p   style="font-size: 15px;" class="ps-3 pe-3">GadgetTradehub has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
-            get better exchange value for our phones!</p>
-        <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
-            largest smartphone brands.</b></h3>
+          <p   style="font-size: 15px;" class="ps-3 pe-3 pb-3">GadgetTradeHub is a fantastic and one-of-a-kind service. It has helped me sell my old used phones in a hassle free manner, multiple times. The service is very convenient, with doorstep collection of phone, and immediate cash payment The rates offered </p>
+        <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>91mobiles is India’s largest gadget discovery & shopping destinations. </b>
          
-         <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Manu Jain </b></h3>
-         <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">VP & MD,Xiaomi India</h3>
+         <h3 class="pt-4 ps-3 pe-3" style="font-size: 18px;" style="font-weight:bolder;"><b>Nitin Mathur </b></h3>
+         <h3 style="font-size: 18px;" style="font-weight:bolder;" class="ps-3 pe-3 pt-0 pb-3">Co-founder, 91mobiles</h3>
      
         </div>
         </div>
 
-        <div  class="col-md-3 py-0  py-md-0">
+        <div  class="col-md-3 py-3 py-md-0">
           <div class="card">
             <img src="img/double quotation.png" height="60px" width="80px" alt="" class="p-3 pt-4">
-            <p   style="font-size: 15px;" class="ps-3 pe-3">GadgetTradehub has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
+            <p   style="font-size: 15px;" class="ps-3 pe-3 pb-3">GadgetTradehub has been a fantastic startup that has brought so much value to the Indian customer. We are proud to partner with them and help our Mi fans 
               get better exchange value for our phones!</p>
           <h3  style="font-size: 18px;" style="font-weight:bolder;" class="pt-4 ps-3 pe-3"><b>Manu Jain is a leading Indian entrepreneur & VP of Xiaomi which is one of India’s 
               largest smartphone brands.</b></h3>
@@ -414,12 +420,14 @@
        
   </div>
   </div>
-  <a href="./pages/recent reviews.html"><div class="btn"   style="background-color:#ffc800; color:white;margin-left:1300px;margin-top:30px;">Readmore</div></a>
+  <a class="mx-auto" href="./pages/recent reviews.html"><div class="btn"   style="background-color:#ffc800; color:white;float: right;margin-top:30px;">Readmore</div></a>
 </div><div>
-<marquee directions="scroll" style="width:100%;background-color:#ffc800;color:white;padding:3px 0;font-family: Arial, Helvetica, sans-serif;font-size:20px;font-style: italic;border-radius: 5px;">
-<img src="img/paytm.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/apple.png" height="70px" width="70px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="img/mi.jpg" height="60px" width="80px" style="border-radius: 30%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="img/samsung.png" height="40px" width="140px"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<marquee directions="scroll" style="width:100%;background-color:#ffc800;color:white;padding:3px 0;font-family: Arial, Helvetica, sans-serif;font-size:10px;font-style: italic;border-radius: 5px;">
+<img src="img/oppo.png" height="100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/paytm.png" heigth="100px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="img/apple.png" height="70px" width="70px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="img/mi.jpg" height="70px" width="80px" style="border-radius: 30%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="img/samsung.png" height="70px" width="140px"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="img/dell.png" height="70px" width="40px" style="border-radius: 50%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="img/realme.png" height="40px" width="90px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="img/hp.png" height="50px" width="40px" style="border-radius: 50%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -431,28 +439,16 @@
 <img src="img/asus.jpeg" height="70px" width="170px" style="border-radius: 10%;background-color: #ffc800;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 </marquee></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="mt-5 mx-5 px-5 pt-5">
 
   <h1 style="font-size: 25px;">
     Sell & Buy - Old,New Gadgets, On GadgetTradehub</h1><br/>
-<p>
-Want to sell old- phone,laptop,etc online and get some quick cash? Then, there is no better place than GadgetTradehub; we assure you that. 
-Forget all those troubles of going to a shop, pleading for the best price and then crossing your fingers for the safety of your data.
- GadgetTradehub is the new one-stop to sell old- phone,laptop,etc online;bu it's like a wish granted by god.
-  Yes, you heard it right.</p>
+<p>Want to sell old phone,laptop,etc online and get some quick cash?
+   Then, there is no better place than GadgetTradeHub; we assure you that.
+    Forget all those troubles of going to a shop, pleading for the best price and then crossing your fingers for the safety of your data. 
+    GadgetTradeHub is the new one-stop to sell old phone,laptop,earpods,etc online; it's like a wish granted by god. 
+  Yes, you heard it right.
+</p>
 
 <p>With GadgetTradehub's smooth user experience, you can sell old- phones,laptop,etc online with just a few clicks.
    So, stay at your home, and sell old- mobile phones,laptop,etc right in the comfort of your home at the best possible price. 
@@ -539,65 +535,146 @@ You can also select your mobile brand from the below quick links.</p>
 </div>
 <br/>
 
-  <div class="container" id="offer" >
-    <div class="row" >
-      <div class="col-md-3 py-md-0" >
-        <i class="fa-solid fa-cart-shopping"></i>
-        <h3>Free Shipping</h3>
-        <p>On order over ₹1000</p>
-      </div>
+
+
+<div class="container" id="offer">
+  <div class="row">
+    <div class="col-md-3 py-md-0">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <h3>Free Shipping</h3>
+      <p>On order over ₹1000</p>
+    </div>
+    
+        <div class="col-md-3 py-md-0">
+          <i class="fa-solid fa-rotate-left"></i>
+          <h3>Free Returns</h3>
+          <p>Withih 30 days</p>
+        </div>
       
-          <div class="col-md-3 py-md-0">
-            <i class="fa-solid fa-rotate-left"></i>
-            <h3>Free Returns</h3>
-            <p>Withih 30 days</p>
-          </div>
-        
-              <div class="col-md-3 py-md-0">
-                <i class="fa-solid fa-truck"></i>
-                <h3>Fast Delivery</h3>
-                <p>World wide</p>
-              </div>
-             
-                  <div class="col-md-3 py-md-0">
-                    <i class="fa-solid fa-thumbs-up"></i>
-                    <h3>Big Choice </h3>
-                    <p>Of products</p>
-                  </div>      
-                 </div>
-  </div>
-
-  <div class="container" id="newslatter">
-    <h1 class="text-center">Subscribe to the GadgetTradehub For Latest upload</h1>
-  <div class="input text-center">
-    <input type="text" placeholder="Enter Your Email...">
-    <button id="subscribe">SUBSCRIBE</button>
-  </div>
-  </div><hr>
-
-<div class="container py-4">
-<div class="copyright">
-&copy;Copyright<strong><span>Gadget Trade Hub</span></strong>.All Rights Reserved
-</div>
-<div class="credits">
-Deisigned by <a href="#">cupcake group</a>
-</div>
+            <div class="col-md-3 py-md-0">
+              <i class="fa-solid fa-truck"></i>
+              <h3>Fast Delivery</h3>
+              <p>World wide</p>
+            </div>
+           
+                <div class="col-md-3 py-md-0">
+                  <i class="fa-solid fa-thumbs-up"></i>
+                  <h3>Big Choice </h3>
+                  <p>Of products</p>
+                </div>      
+               </div>
 </div>
 
-<a href="#" class="arrow">
-<span id="boot-icon" class="bi bi-arrow-up-circle-fill" style="font-size: 3rem; color: rgb(243, 156, 18);"></span>   
-</a>
-
-
-                     
+<div class="container" id="newslatter">
+  <h1 class="text-center">Subscribe to the Electronic Shop For Latest upload</h1>
+<div class="input text-center">
+  <input type="text" placeholder="Enter Your Email...">
+  <button id="subscribe">SUBSCRIBE</button>
+</div>
+</div><hr>
 
   
  
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div style="color:white" class="footer-logo">Gadget Trade Hub</div>
+      </div>
+      <div class="col-md-2 hyperlink">
+        <h5 style="color:white">Categories</h5>
+        <ul style="color:white">
+          <li style="color:white"><a href="#">Smartphone</a></li>
+          <li style="color:white"><a href="#">Smart watches</a></li>
+          <li style="color:white"><a href="#">Headphone</a></li>
+          <li style="color:white"><a href="#">laptop</a></li>
+          <li style="color:white"><a href="#">Monitor</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 hyperlink">
+        <h5 style="color:white">Our Services</h5>
+        <ul>
+          <li style="color:white"><a href="pages/sell.html">Sell</a></li>
+          <li style="color:white"><a href="pages/buy.html">Buy</a></li>
+          <li style="color:white" ><a href="repair.html">Repair</a></li>
+          <li style="color:white"><a href="pages/find new.html">Find New</a></li>
+          <li style="color:white"><a href="pages/nearby stores.html">Nearby Store</a></li>
+          <li style="color:white"><a href="compare_mobiles.html">Compare Devices</a></li>
+          <li style="color:white"><a href="#">Recylce</a></li>
+          <li style="color:white"><a href="#">Reuse</a></li>
+          <li style="color:white"><a href="pages/refurbished.html">Refurbhished</a></li>
+          <li style="color:white"><a href="pages/favourite brand.html">Favourite Brand</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 hyperlink">
+        <h5 style="color:white">About</h5>
+        <ul>
+          <li style="color:white"><a href="#">Our store</a></li>
+          <li style="color:white"><a href="#">About us</a></li>
+          <li style="color:white"><a href="#">Contact Us</a></li>
+          <li style="color:white"><a href="#">Team members</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 hyperlink">
+        <h5 style="color:white">Help & Support</h5>
+        <ul>
+          <li style="color:white"><a href="pages/help.html">FAQ</a></li>
+          <li style="color:white"><a href="pages/help.html">Terms & Condition</a></li>
+          <li style="color:white"><a href="pages/help.html">Private Policy</a></li>
+          <li style="color:white"><a href="#">E-Waste Policy</a></li>
+          <li style="color:white"><a href="#">Cookie Policy</a></li></ul>
+      </div>
+
+      <div class="col-md-2 hyperlink">
+            <h5 style="color:white">More info</h5>
+        <ul>
+          <li style="color:white"><a href="pages/our stores.html">Our Stores</a></li>
+          <li style="color:white"><a href="pages/special offer.html">Special offer</a></li>
+          <li style="color:white"><a href="pages/Trendingarticles.html">Trending Articles</a></li>
+          <li style="color:white"><a href="pages/recent reviews.html">Recent Reviews</a></li>
+          <li style="color:white"><a href="pages/special offer.html">Used Code</a></li></ul>
+      </div>
+
+      <div class="col-md-3 hyperlink">
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <hr style="color:white">
+
+    <h5 style="color:white">Regestered office</h5>
+  <P style="color:white">Manak Waste Management Pvt Ltd.| B-39, 1st Floor, Middle Circle, Connaught Place, New Delhi-110001, India, Support-7290068900 | CIN: U27205DL2009PTC190441
+    Manak Waste Management Pvt Ltd. is ISO 27001 Compliance Certified. Person who may be contacted in case of any compliance related queries or grievances : Shanzey Shaikh (Shanzey.s@GadgetTradeHub.in)</P>
+    <hr style="color:white">
+
+  <div style="color:white" class="text-center">
+    <P style="color:white">&copy; 2023 Gadget Trade Hub. All rights reserved.</P>
+  </div>
+  
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
 <script src="https://code.jquery.com/jquery-3.7.0.js" ></script>
                         
                          
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
-  <script src="js/index.js" ></script>
+  <script src="./js/index.js" ></script>
   </body>
   </html>
 
