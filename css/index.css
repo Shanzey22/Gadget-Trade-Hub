@@ -4,32 +4,37 @@
     box-sizing:border-box;
     outline:none;
     font-family: Arial, Helvetica, sans-serif;
-  
+
     color: black;
 }
-button5{
-    
-        position:absolute;
-       
-        background:#e9f5ff;
-        width:50px;
-        height:50px;
-        border-radius:50%;
-        display:flex;
-        justify-content:center;
-        align-items: center;
-       border:none;
-        cursor:pointer;
-        color:#2fa1ff;
-        font-size: 20px;
-    }
 
-.top-navbar{
-    display:flex;
-    justify-content :space-between;
-
-    
+.body-light{
+    color: black;
+    background-color: white;
 }
+.body-dark{
+    color:white;
+    background-color: blue;
+}
+
+
+.top-navbar-light{
+   
+color:black;
+background:white;
+display:flex;
+justify-content :space-between;
+
+}
+   
+    .top-navbar-dark{
+        color:rgb(250, 246, 246);
+        background-color: rgb(12, 12, 12);
+        display:flex;
+        justify-content :space-between;
+    }
+    
+
 .top-navbar p{
     margin-top:13px;
     margin-left:15px;
