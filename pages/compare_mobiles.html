@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="../css/footer.css">
         
     </head>
-    <body>
+    <body id="body" class="body-light">
         <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html" id="logo"><span id="span1">G</span>adgetTrade<span>Hub</span></a>
@@ -88,6 +88,13 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                   </form>
+                  <button type="button" class="mx-3 my-3" onclick="toggleLightTheme()" id="icon">   
+                    <img src="../img/sun.jpg" height="30px" width="30px">
+                  </button>
+                  <button type="button" class="mx-2"  onclick="toggleDarkTheme()" id="icon">   
+                    <img src="../img/moon.jpg" height="30px" width="30px">
+                  </button>
+                </div>
                 </div>
               </div>
             </nav>
@@ -251,6 +258,6 @@
         </footer>
     </body>
 </html>
-
+<script src="../js/index.js"></script>
 <script src="../js/data_mobile.js" id="compare"></script>
 <script src="../js/compare.js"></script>        
