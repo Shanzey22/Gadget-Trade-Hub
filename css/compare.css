@@ -209,3 +209,6 @@ td>img{
     height:250px;
     object-fit: contain;
 }
+.text:hover{
+    color:#ffc800;
+}
