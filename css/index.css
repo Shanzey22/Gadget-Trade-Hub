@@ -4,7 +4,26 @@
     box-sizing:border-box;
     outline:none;
     font-family: Arial, Helvetica, sans-serif;
+  
+    color: black;
 }
+button5{
+    
+        position:absolute;
+       
+        background:#e9f5ff;
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+       border:none;
+        cursor:pointer;
+        color:#2fa1ff;
+        font-size: 20px;
+    }
+
 .top-navbar{
     display:flex;
     justify-content :space-between;
@@ -142,6 +161,11 @@
     z-index:0;
 
 }
+#icon{
+    cursor:pointer;
+    height:40px; 
+    width:40px;
+}
 .home .img{
     flex:1 1 300px;
 }
@@ -176,7 +200,7 @@ text-shadow:-1px 1px 1px black;
     width:150px;
     height:32px;
     letter-spacing: 3px;
-    background-color: black;
+    background-color: #ffc800;
     color:white;
     border-radius: 5px;
     border: none;
@@ -184,8 +208,8 @@ text-shadow:-1px 1px 1px black;
     cursor:pointer;
 }
 .btn button:hover{
-    background-color: #ffc800;
-    color:black;
+    background-color: black;
+    color:white;
     border: none;
 }
 @media screen and (max-width:1200px){
@@ -279,52 +303,217 @@ text-shadow:-1px 1px 1px black;
  }
 
  .container1{
-    background-color: black;
-    color:white;
+    background-color:rgb(14, 14, 14);
+
 
     margin-top: 90px;
     padding-top: 70px;
     padding-left: 90px;
     padding-bottom: 70px;
-    padding-right: 70px;
+    padding-right: 90px;
   
  }
  .container1 .left{
-   
+   color: white;
     height: 30px;
-    width: 800px;
+    width: 900px;
  }
  .container1 .left h1{
     font-weight: 800px;
+    color: white;
  }
+
+ @media screen and (max-width:1200px){
+    .container1 .left{
+        height:23vh;
+        width:500px;
+        margin: auto;
+        padding: auto;
+        background-color: black;
+    
+    }
+    
+    }
+
+        
+        
+    @media screen and (max-width:799px){
+        .container1 .left{
+            height:16vh;
+            width:450px;
+            margin: auto;
+            padding: auto;
+           background-color: black;
+        
+        }
+        
+        }
+    
+    
+    
+    
+        @media screen and (max-width:550px){
+            .container1 .left{
+                height:18vh;
+                width:350px;
+                margin: auto;
+                padding: auto;
+               background-color: black;
+            
+            }
+            
+            }  
+
+
+            @media screen and (max-width:420px){
+                .container1 .left{
+                    height:16vh;
+                    width:300px;
+                    margin: auto;
+                    padding: auto;
+                   background-color: black;
+                
+                }
+            }
+           
+                @media screen and (max-width:320px){
+                    .container1 .left{
+                       height:10vh;
+                        width:240px;
+                        margin: auto;
+                        padding: auto;
+                       background-color: black;
+                    font-size: 12px;
+                    
+                    }
+                    
+                    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container2{
-    margin-left:800px;
-    height:130px;
-    width:500px;
+    margin:auto;
+    height:auto;
+    width:auto;
     color:#ffc800;
     background-color:black;
-    margin-top: -30px;
+    margin-top: -50px;
+    
+    
+  
    
 }
 .container1 .container2 .card{
-    display: inline-block;
+  display: inline-block;
     background-color:black;
-    height: 100px;
-    width:140px;
-padding-left:1px;
-padding-top: 1px;
+    height: 130px;
+    width:130px;
 
+margin:0;
 }
 .container1 .container2 .card h1{
-    font-size: 20px;
+    font-size: 19px;
+    
+    color: #ffc800;
 }
 .container1 .container2 .card h2{
     font-size:17px;
+    color: #ffc800;
 }
 
 
+
+
+@media screen and (max-width:1200px){
+    .container2{
+        height:20vh;
+        width:600px;
+    margin: auto;
+    margin-top:-20px;
+
+     
+        background-color:black;
+    
+    }
+    .container1 .container2 .card {
+        
+        height:20vh;
+        width:140px;
+        margin: auto;
+        padding: auto;
+        background-color: black;
+    }
+    .container1 .container2 .card h1{
+        font-size: 20px;
+        
+        color: #ffc800;
+    }
+    .container1 .container2 .card h2{
+        font-size:18px;
+        color: #ffc800;
+    }
+    
+    }
+
+        
+        
+    @media screen and (max-width:799px){
+        
+        .container2{
+            height:18vh;
+            width:300px;
+        margin:auto;
+        padding:auto;
+         margin-bottom: -20px;
+            background-color:black; }
+        .container1 .container2 .card {
+            
+            height:15vh;
+            width:100px;
+            margin-left: auto;
+            padding: 1px;
+            background-color: black;
+        }
+        .container1 .container2 .card h1{
+            font-size: 14px;
+            
+            color: #ffc800;
+        }
+        .container1 .container2 .card h2{
+            font-size:13px;
+            color: #ffc800;
+        }
+        
+        }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
 #offer{
-    margin-top:100px;
+    margin-top:75px;
+    margin-right:auto;
+   
 }
 #offer i{
     font-size:32px;
@@ -333,6 +522,7 @@ padding-top: 1px;
 }
 #newslatter{
 margin-top:100px;
+
 }
 #newslatter h3{
     font-size:25px;
@@ -405,25 +595,52 @@ html{
 }
 
 
-
-.cover {
-    padding: 0px 30px;
-    position: relative;
-  }
-  .left4 {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .right4 {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+body {
+    
+    font-family: Arial, sans-serif;
   }
 
+  .footer {
+    background-color: #262626;
+    color: #fff;
+    padding: 40px 0;
+  }
 
+  .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
 
+  .footer-links {
+    margin-top: 15px;
+  }
 
+  .footer-links a {
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+  }
 
+  .footer-links a:hover {
+    color: #fff;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+
+  .footer-social i {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #aaa;
+    transition: color 0.3s;
+  }
+
+  .footer-social i:hover {
+    color: #fff;
+  }
+  .hyperlink li a{
+    text-decoration: none;
+    color:white;
+  }
