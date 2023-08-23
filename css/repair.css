@@ -143,44 +143,13 @@ top:0;
 
   }
 
-  
-
-
 
  .scrolling-wrapper
   {
 	overflow-x: auto;
 }
 
-body{
-	font-family: 'system-ui';
-}
 
-h1{
-	font-weight: 270;
-	font-size: 2.2em;
-}
-
-.subtitle{
-	font-size: 1.25em;
-	opacity: 0.65;
-}
-
-.card-block{
-	height: 250px;
-  width: 200px;
-	background-color: #fff;
-	border: 10px;
-	background-position: center;
-	background-size: cover ;
-	transition: all 0.2s ease-in-out !important;
-	border-radius: 20px;
-	&:hover{
-		transform: translateY(-5px);
-		box-shadow: none;
-		opacity: 0.9;
-	}
-}
 
 
 
