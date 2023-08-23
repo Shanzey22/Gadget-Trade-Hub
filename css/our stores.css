@@ -158,3 +158,60 @@
     border-radius:50px;
     border:none;
 }
+#search button{
+    border-radius:50px;
+    color:white;
+    border:1px solid #ffc800;
+    background-color: #ffc800;
+
+}
+.sv{ 
+    font-size: 20px;
+    margin-left: 37px;
+    color:#ffc800;  
+}
+
+  .home{
+  width:100%;
+  height:80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: #a9a9a92b;
+  z-index:0;
+  }.home .img{
+  flex:1 1 300px;
+}
+.home .img img{
+  margin-top:30px;
+  margin-right: 60px;
+  width:100%;
+}
+.home .content{
+  flex:1 1 400px;
+  margin-top:20px;
+}.content h1{
+color:black;
+font-weight:bold;
+margin-left:23px;
+font-size:60px;
+text-shadow:-1px 1px 1px black;
+}
+.content h1 span{
+  color:black;
+}
+#span2{
+  color:#ffc800;
+}
+.content p{
+  margin-left:23px;
+}
+.card-title{
+    text-align: center;
+}
+.footer{
+    position: relative;
+    top:50px;
+}
