@@ -10,17 +10,9 @@
         <link rel="stylesheet" href="../css/login.css">
         <link rel="stylesheet" href="../css/footer.css">
 
-        <style>
-          .body-light{
-            color:black;
-          }
-          .body-dark{
-            background-color: #a6a6a6;
-            
-          }
-        </style>
+        
     </head>
-    <body id="body" class="body-dark">
+    <body id="body" class="body-light">
       <nav class="navbar sticky-top navbar-expand-lg" id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html" id="logo"><span id="span1">G</span>adgetTrade<span>Hub</span></a>
@@ -98,6 +90,15 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
+              <div style="float:right;" class="button-container" class="mx-auto">
+
+                <button type="button" class="mx-3 my-3" onclick="toggleLightTheme()" id="icon">   
+                  <img src="../img/sun.jpg" height="30px" width="30px">
+                </button>
+                <button type="button" class="mx-2"  onclick="toggleDarkTheme()" id="icon">   
+                  <img src="../img/moon.jpg" height="30px" width="30px">
+                </button>
+              </div>
             </div>
           </div>
         </nav>
@@ -215,8 +216,7 @@
           
           </div>
         </footer>
-        <button type="button" onclick="toggleLightTheme()">Light</button>
-        <button type="button" onclick="toggleDarkTheme()">Dark</button>
+        
   
         <script>
           function alert(){
@@ -224,16 +224,7 @@
           }
         </script>
 
-        <script>
-          function toggleLightTheme(){
-             const bodyElement=document.getElementById('body');
-             bodyElement.classList.remove('body-dark');
-             bodyElement.classList.add('body-light');}
-          function toggleDarkTheme(){
-             const bodyElement=document.getElementById('body');
-             bodyElement.classList.remove('body-light');
-             bodyElement.classList.add('body-dark');}
-        </script>
+        <script src="../js/index.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
