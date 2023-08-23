@@ -1,4 +1,3 @@
-confirm('GadgetTradehub.in wants to start sending you push notifications. Click OK to subscribe.')
 function toggleDarkTheme(){
     const bodyElement=document.getElementById('body');
     bodyElement.classList.remove('body-light');

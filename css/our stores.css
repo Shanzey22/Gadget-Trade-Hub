@@ -257,3 +257,14 @@ text-shadow:-1px 1px 1px black;
                     }
                     
                     } 
+
+          
+.body-light{
+    color: black;
+    background-color: white;
+}
+.body-dark{
+    color:black;
+    background-color: #a6a6a6;
+}
+          

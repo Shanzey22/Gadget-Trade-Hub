@@ -155,3 +155,12 @@ margin-left: 300px;
     margin-left: 100px;
     font-size: 20px;
 }
+
+.body-light{
+    color: black;
+    background-color: white;
+}
+.body-dark{
+    color:black;
+    background-color: #a6a6a6;
+}
