@@ -192,7 +192,8 @@
 .home .content{
   flex:1 1 400px;
   margin-top:20px;
-}.content h1{
+}
+.content h1{
 color:black;
 font-weight:bold;
 margin-left:23px;
@@ -215,3 +216,44 @@ text-shadow:-1px 1px 1px black;
     position: relative;
     top:50px;
 }
+@media screen and (max-width:1200px){
+    .home{
+        height:50vh;
+    
+    }
+    
+    }
+    @media screen and (max-width:799px){
+        .home{
+            height:140vh;
+        
+        }
+        
+        }
+    
+    
+    
+    
+        @media screen and (max-width:550px){
+            .home{
+                height:110vh;
+            
+            }
+            
+            }  
+            @media screen and (max-width:420px){
+                .content h1{
+                    font-size: 45px;
+                   
+                
+                }
+                
+                }
+                @media screen and (max-width:320px){
+                    .content h1{
+                        font-size: 34px;
+                    
+                    
+                    }
+                    
+                    } 
