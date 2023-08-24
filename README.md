@@ -103,6 +103,8 @@ The GadegetTradeHub is based on electronic products.it is specialised platform d
 In conclusion, electronic gadgets, including smartwatches,smartphones,ipad,tablets,laptop,earbuds,etc have become an essential part of our daily lives, offering us convenience, productivity, entertainment, health and fitness, safety, and security. However, we must also be aware of the challenges and concerns that come with the use of these gadgets, such as digital addiction, cyberbullying, a sedentary lifestyle, privacy concerns, and environmental impact. By using these gadgets responsibly and mindfully, we can enjoy their benefits while minimizing their negative impact on our lives and the environment.
 
 # Contribution
+![120335522](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/71048878-4d40-4004-859f-d2be1cfca9ab)
+
 
 
 
