@@ -9,15 +9,15 @@ SERVICE PAGE
 ![Screenshot 2023-08-23 130123](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/d16cb2d3-66a6-48f9-a397-38eeb38aa9dd)
 ![Screenshot 2023-08-23 130141](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/de332feb-57a3-4a21-a4d6-fcdcd3c6702a)
 
-# The Importance of Electronic Gadgets in Our Daily Life
+# The Importance of Electronic Gadgets in Our Daily Life 😎🤗🤩
 
 In today’s world, electronic gadgets have become an integral part of our daily lives. From smartphones to laptops, smartwatches to home assistants, these gadgets have transformed the way we communicate, work, and live. In this article, we will discuss the importance of electronic gadgets in our daily life, with a special focus on smartphones.
 
-# Description 
+# Description 📖
 
 We have created this project using HTML,CSS,Bootstrap and Javascript.
 
-# Advantages of Electronics Gadgets
+# Advantages of Electronics Gadgets💥👍
 
 1 – Communication
 
@@ -58,7 +58,7 @@ Electronic gadgets have also helped to increase our safety and security. For exa
 
 Smartphone,Smartwatches,etc have added to this safety and security by allowing us to receive real-time alerts and notifications, and even make emergency calls, all without having to take out our phones.
 
-#  Sell & Buy - Old,New Gadgets, On GadgetTradehub
+#  Sell & Buy - Old,New Gadgets, On GadgetTradehub📱💻🎧
 
 Want to sell old phone,laptop,etc online and get some quick cash?
    Then, there is no better place than GadgetTradeHub; we assure you that.
@@ -70,7 +70,7 @@ Want to sell old phone,laptop,etc online and get some quick cash?
   Buying new mobile phone,laptop,etc is the best way to upgrade without causing a hole in the pocket. 
   GadgetTradehub keeps new- mobile phones,laptop,etc in better condition so that they feel as good as new ones when you purchase them.
 
-  # How does GadgetTradehub  Website Work?
+  # How does GadgetTradehub  Website Work?🤘
 
   For Selling:
   After visiting the GadgetTradehub website or app, select the product category you would like to sell.
@@ -89,7 +89,7 @@ Our technician will be at your doorstep to pick up the device, inspect it and pr
   You can then move forward and enter your address and payment mode.
    Rest assured, the device will be delivered to your doorstep.
 
-# Use Of Project
+# Use Of Project🔥
 
 The GadegetTradeHub is based on electronic products.it is specialised platform design tool streamline and enhance the use and coordination of electronics. It offers a range of features and functionalities that cater specifically to the needs of sell,buy,compare device,repair,etc works of various gadgets. Here are some key uses of this website.
  
@@ -98,12 +98,21 @@ The GadegetTradeHub is based on electronic products.it is specialised platform d
 -Customization
 -Various Products inform. got
 
-# Conclusion
+# Conclusion🔚
 
 In conclusion, electronic gadgets, including smartwatches,smartphones,ipad,tablets,laptop,earbuds,etc have become an essential part of our daily lives, offering us convenience, productivity, entertainment, health and fitness, safety, and security. However, we must also be aware of the challenges and concerns that come with the use of these gadgets, such as digital addiction, cyberbullying, a sedentary lifestyle, privacy concerns, and environmental impact. By using these gadgets responsibly and mindfully, we can enjoy their benefits while minimizing their negative impact on our lives and the environment.
 
-# Contribution
-https://github.com/Shanzey22
+# Contribution🤝
+Shanzey Shaikh - index page,sell page,navbar
+Lokesh Manapure - login page,signup page,forget page,compare devices
+Vedika Yadav - our store page,Refurbished page
+Prerna Barde - Help page,near by stores
+Pratik Barbudhe - Repair page,Footer
+Alfesh Abdul - Reviews & comment page,
+Sahil Gondhe - Buy page
+Vedant Vedant - about us page,contact us page
+Pranjal Tekale - Our Team member page
+Pooja Walekar - Trending articles page
 
 
 
