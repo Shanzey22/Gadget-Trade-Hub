@@ -89,7 +89,7 @@ Our technician will be at your doorstep to pick up the device, inspect it and pr
   You can then move forward and enter your address and payment mode.
    Rest assured, the device will be delivered to your doorstep.
 
-# Use Of Project🔥
+# Use Of Project
 
 The GadegetTradeHub is based on electronic products.it is specialised platform design tool streamline and enhance the use and coordination of electronics. It offers a range of features and functionalities that cater specifically to the needs of sell,buy,compare device,repair,etc works of various gadgets. Here are some key uses of this website.
  
@@ -104,6 +104,17 @@ In conclusion, electronic gadgets, including smartwatches,smartphones,ipad,table
 
 # Contribution
 ![120335522](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/71048878-4d40-4004-859f-d2be1cfca9ab)
+![137717961](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/ff0203e3-abdc-46f0-90d2-29b698464ae4)
+![137777541](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/adf6c834-0647-4f9b-8bc4-605f74624305)
+![138194325](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/0a7ef7c4-4a6c-4eb7-a573-0c850b6dab3b)
+![137737291](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/a65ac8d2-b6e9-4e72-adc3-234f5b803935)
+![137672253](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/73b68968-6b81-4106-8ae6-d96700e9735e)
+![137850472](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/1fd23b49-62a9-402f-ac61-3f43d4a0e2e0)
+![120373804](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/7897735e-baa8-49fd-b7a0-47d6016bb691)
+![138383249](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/cac01db6-a3fe-4667-b4b2-09582001ce85)
+![138005326](https://github.com/Shanzey22/Gadget-Trade-Hub/assets/120335522/132046dd-a61e-4148-aacb-da43b0c81ea2)
+
+
 
 
 
