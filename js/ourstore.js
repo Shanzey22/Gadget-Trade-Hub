@@ -14,4 +14,4 @@ function toggleLightTheme()
 {
     const bodyElement=document.getElementById('body');
     bodyElement.classList.add('body-light');
-    bodyElement.classList.remove('body-dark');
+    bodyElement.classList.remove('body-dark');}
